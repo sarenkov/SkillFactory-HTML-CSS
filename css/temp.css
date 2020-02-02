@@ -1,0 +1,814 @@
+body {
+    display: flex;
+    width: 100vw;
+    max-width: 1549px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    background: #F2F2F2;
+
+    font-family: 'Open Sans Regular', Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+
+a {    
+    text-decoration: none;
+}
+
+.btn {    
+    font-family: 'Open Sans Bold';
+    background: #FF2D2D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border-color: #FF3B3B;
+    border-style: hidden;
+}
+
+.btn:active {
+    background: #b30000;
+}
+
+/*---------------------- Header ----------------------*/
+
+header {
+    display: flex;
+    width: 100%;
+    max-width: 1249px;
+    height: 89px;
+    margin: 31px 150px 101px 150px;   
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    background: #000000;
+    opacity: 0.8;
+}
+
+.menu .menu-item {
+    display: flex;
+    width: 92px;
+    height: 89px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20px;
+    background-color: #000000;
+}
+
+.menu-item-text {
+
+    font-family: 'Open Sans Bold', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 24px;    
+    letter-spacing: 0.49px;
+    text-transform: uppercase;
+    color: #E0E0E0;
+}
+
+.menu-item:hover {
+    background: #FF3F40;
+}
+
+.menu-item:active {
+    background: #b30000;
+}
+
+
+/*---------------------- Контент ----------------------*/
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    max-width: 1549px;
+    flex-wrap: wrap;
+    margin-bottom: auto;
+}
+
+.block {
+    display: flex;    
+    justify-content: space-between; 
+    max-width: 1549px;
+}
+
+
+/*---------------------- Первый экран ----------------------*/
+
+
+.first {    
+    background: #F6F2F2;
+    width: 100%;
+    max-width: 1249px;
+}
+    
+
+section {    
+    display: flex;
+    height: 359px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.video{
+    width: 554px; 
+    align-items: flex-end; 
+}
+
+
+.text {
+    width: 100%;
+    max-width: 605px;
+    flex-flow: column;
+    justify-content: space-between;    
+    word-wrap: break-word;
+}
+
+.our-strong, 
+.organaisation {
+    font-size: 60px;
+    line-height: 72px;    
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans ExtraBold';
+}
+
+.our-strong { 
+    max-width: 12ch;
+    letter-spacing: 1.5px;    
+}
+
+.organaisation {  
+    max-width: 18ch;
+    letter-spacing: 6px;   
+    margin-bottom: 20px;
+}
+
+.description {
+    font-family: inherit;
+    font-size: 15.9953px;
+    line-height: 28px;
+    max-width: 61ch;
+    margin-top: 0;
+    margin-bottom: 61px;
+}
+
+.btn.contact {
+    width: 230px;
+    height: 58px;   
+    font-size: 18.0412px;
+    line-height: 34px;    
+    letter-spacing: 0.3195px;
+    color: #FFFFFF;   
+}
+
+.video {
+    display: flex;
+    align-items: baseline;
+}
+
+
+/*---------------------- Второй экран ----------------------*/
+
+
+.second {
+    margin-top: 106px;
+    margin-bottom: auto;
+    width: 100%;
+    max-width: 1249px;
+}
+
+.second h2 {
+    font-family: "Open Sans Bold";
+}
+
+.offer-text {
+    flex-direction: column;
+    max-width: 40%;
+}
+
+.offer-text h1 {
+    margin-bottom: 50px;
+}
+
+.offer-text p {
+    margin-bottom: 63px;
+}
+
+.provide {
+    font-family: "Open Sans Bold";
+    font-size: 42px;
+    line-height: 55px;
+    text-transform: uppercase;  
+    color: #000000;
+    margin: 0;
+}
+
+.provide-text {
+    font-family: "Open Sans Regular";
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    max-width: 59ch;
+    margin-top: 0;
+}
+
+.learnmore {
+    width: 230px;
+    height: 57px;
+    background: rgba(0, 0, 0, 0.0001);
+    border: 2px solid #FF0000;
+    box-sizing: border-box;
+    color: #FF2D2D;
+}
+
+.features-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 55%;
+}
+
+.feature-item-description {
+    font-family: "Open Sans Regular";
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.feature-item:nth-of-type(even) {
+    width: 36ch;
+}
+
+.feature-item:nth-of-type(odd) {
+    width: 33ch;
+    margin-right: 10px;
+}
+
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+
+/*---------------------- Третий экран ----------------------*/
+
+
+.third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: flex-start;
+    margin-top: 106px;
+    margin-bottom: auto;
+    width: 100%;
+    max-width: 1249px;
+}
+
+.third hr {
+    width: 134px;
+    height: 5px;    
+    background: #FF2D2D;
+}
+
+.third h2 {
+    font-family: "Open Sans Bold", Arial, Helvetica, sans-serif;
+    font-size: 41.9876px;
+    letter-spacing: 0.3834px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 28px;
+    margin-top: 0;
+}
+
+.third p {
+    font-size: 15.9953px;
+    line-height: 28px;
+    max-width: 61ch;
+    text-align: center;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 33px;
+}
+
+.third nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: inherit;
+    justify-content: center;
+}
+
+.third nav a {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    align-items: center;
+    letter-spacing: 0.22px;
+    text-transform: uppercase;
+    margin: 86px 30px 80px 30px;
+    color: #000000;
+}
+
+.third nav a:hover {
+    color: #FF2D2D;
+}
+
+.templates-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-bottom: 20px;
+}
+
+.templates-items a {
+    width: 301px; 
+    height: 293px;
+    margin-bottom: 10px;
+}
+
+.templates-items img {
+    width: inherit; 
+    height: inherit;
+    margin-bottom: 10px;
+}
+
+
+
+/*---------------------- Четвертый экран ----------------------*/
+
+.fourth {
+    margin-top: 106px;
+    max-width: 1249px;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: auto;
+}
+.fourth h2 {
+    font-family: "Open Sans Bold", Arial, Helvetica, sans-serif;
+    font-size: 41.9876px;
+    letter-spacing: 0.3834px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0;
+}
+
+.fourth p {
+    font-family: "Open Sans Regular";
+    font-size: 15.9953px;
+    line-height: 28px;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.fourth hr {
+    width: 134px;
+    height: 5px;
+    background: #FF2D2D;    
+    margin: 37px 0 80px 10px;
+}
+
+.fourth .rectangles {
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+}
+
+.fourth .rectangle-1{
+    display: flex;       
+    width: 360px;
+    min-height: 462px;
+    margin: 0;
+}
+.fourth .rectangle-1 a {    
+    width: inherit;
+    height: inherit;
+}
+
+.fourth .rectangle-1 img {
+    width: 324px;
+    height: 460px;   
+}
+
+
+.fourth .more-rectangles {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fourth .rectangle-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    width: 100%;
+    min-height: 462px;
+}
+
+.fourth .rectangle-2 h3 {
+    font-weight: 600;
+    font-size: 30.127px;
+    letter-spacing: 0.275265px;
+    text-transform: uppercase;  
+    margin: 10px 0 0 0;
+}
+
+.fourth .rectangle-2 .rect-text {
+    display: flex;
+    flex-direction: column;
+    max-height: 50%;  
+    max-width: 890px;   
+    width: 100%;
+}
+
+.fourth .rectangle-2 p {    
+    font-size: 15.9953px;
+    line-height: 28px;
+    margin: 30px 0 46px 0;
+    max-width: 71ch;
+    word-wrap: break-word;  
+}
+
+.fourth .rect-menu {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.fourth .rect-menu .rect-menu-link{
+    font-family: "Open Sans Italic", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    color: #000000;
+    margin: 0 30px 0 0;
+}
+
+.fourth .small-rectangle {
+    width: 198px;
+    height: 217px;
+}
+
+
+/*---------------------- Пятый экран ----------------------*/
+
+.block.fifth {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 106px;
+    /* max-height: 516px; */
+    height: 100%;
+    width: 100%;
+    max-width: 1579px;
+    background: #2C2C2C;
+    justify-content: flex-start;    
+}
+
+.fifth h3 {
+    font-family: "Open Sans Bold", Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    line-height: 24px;
+    display: flex;
+    letter-spacing: 1.05px;
+    color: #FFFFFF;
+    margin-top: 151px;
+    margin-bottom: 17px;
+    max-width: 50ch;
+}
+
+.fifth p {
+    font-size: 15.9953px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 0;
+    max-width: 62ch;
+}
+
+.fifth .subscribe-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 57px;
+    margin-bottom: 180px;
+    width: 100%;
+} 
+
+.fifth .email-input {
+    width: 100%;
+    max-width: 524px;    
+    height: 82px;
+    background: #FFFFFF;
+    font-family: "Open Sans Regular", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-indent: 38px;
+    border-radius: 5px;
+    border: #2C2C2C;
+    color: #2C2C2C;
+    margin-right: 19px;
+}
+
+.fifth .subscribe-btn {
+    width: 217px;
+    height: 82px;
+    background: #FF2D2D;
+    font-family: "Open Sans Bold", Arial, Helvetica, sans-serif;
+    font-size: 17.9026px;
+    line-height: 34px;
+    letter-spacing: 0.317046px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: #FFFFFF;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*---------------------- Шестой экран ----------------------*/
+
+.sixth {
+    justify-content: flex-end;
+    margin-top: 106px;
+    max-width: 1549px;
+    width: 100%;
+    background: #F2F2F2;
+    margin-top: 106px;   
+    align-content: flex-start;
+}
+
+.sixth .text-block {
+    display: flex;
+    flex-direction: column;
+    max-width: 736px;
+    width: 100%;
+}
+
+.sixth h2 {
+    font-family: "Open Sans Bold", Arial, Helvetica, sans-serif;
+    font-size: 41.9876px;
+    letter-spacing: 0.3834px;
+    text-transform: uppercase;
+    color: #000000;
+    max-width: 10xh;
+}
+
+.sixth p {
+    max-width: 100ch;
+    font-family: inherit;
+    font-size: 15.9953px;
+    line-height: 28px;
+    color: #000000;
+    margin-top: 45px;
+}
+
+.sixth .separator-red-line {
+    width: 134px;
+    height: 5px;
+    background: #FF2D2D;
+    margin: 58px 0 73px 0;
+}
+
+.sixth .send-message-form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sixth .short-inputs {
+    display: flex;
+}
+
+.sixth .name {
+    margin-right: 51px;
+}
+
+.sixth .name,
+.sixth .your-mail {
+    width: 342px;
+    height: 71px;
+    background: #dadada;
+    border-radius: 10px;
+    border-color: #c9c9c9;
+    border-style: hidden;
+
+    font-family: inherit;
+    font-size: 15.9134px;
+    line-height: 28px;
+    text-indent: 50px;
+    color: #000000;
+}
+
+.sixth .message {
+    width: 100%;
+    max-width: 638px;
+    height: 200px;
+    background: #dadada;
+    border-radius: 10px;
+    border-color: #c9c9c9;
+    border-style: hidden;
+
+    font-family: inherit;
+    font-size: 15.9134px;
+    line-height: 28px;
+    margin: 43px 0 43px 0;
+    padding: 26px 50px;
+}
+
+.sixth .send-message-btn {
+    max-width: 736px;
+    width: 100%;
+    height: 75px;
+    font-family: "Open Sans Bold";
+    font-size: 17.9026px;
+    line-height: 34px;
+    letter-spacing: 0.317046px;
+    text-transform: uppercase;
+    color: #FFFFFF;    
+}
+
+.sixth .contact-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    width: 100%;
+    height: 344px;
+    background-color: #2D2D2D;
+    margin: 0;
+    align-self: flex-end;
+    padding-top: 141px;
+    padding-left: 81px;
+    padding-right: 184px;
+}
+
+.sixth .contact-info h3 {
+    font-family: "Open Sans Bold";
+    font-size: 17.9026px;
+    line-height: 34px;
+    letter-spacing: 0.317046px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.sixth .contact-info p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    max-width: 33ch;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.sixth .callback-form {
+    display: flex;
+}
+
+.sixth .right-part-form {
+    display: flex;
+}
+
+.sixth .left-part-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 104px;
+}
+
+/*---------------------- Футер ----------------------*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1549px;
+    height:113px;
+    flex-wrap: wrap;
+    background: #2C2C2C;
+    margin-top: 106px;    
+}
+
+.copy {
+    display: flex;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 26px;
+    color: #B8B8B8;
+    margin-top: 32px;
+    margin-left: 171px;
+    max-width: 40ch;
+}
+
+.social-icons {
+    display: flex;
+    margin-right: 168px;
+    margin-top: 32px;
+}
+
+.social-icons > a{
+    background-color: #000000;
+    width: 33px;
+    height: 33px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+@media screen and (max-width: 1215px) {
+    
+    .block,    
+    .third .templates-items,    
+    .fourth,
+    .fourth .rectangles,
+    .fourth .more-rectangles,
+    .fifth,
+    .fifth .subscribe-form,
+    .sixth .short-inputs,
+    .sixth {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .third nav {
+        align-items: center;
+    }
+
+    .fourth p {
+        margin-left: 0;
+    }
+
+    .first .text,
+    .second .offer-text,
+    .second .feature-item 
+    .fourth .small-rectangle,
+    .fourth .more-rectangles,
+    .fourth .rectangle-2,
+    .sixth .send-message-form,
+    .sixth .short-inputs .name {
+        align-items: center;
+        margin-bottom: 120px;
+    }  
+
+    .fifth h3 {
+        line-height: normal;
+    }
+    
+}
+
+@media screen and (max-width: 640px) {
+
+    .sixth .send-message-form,
+    .sixth .message,
+    .send-message-btn,
+    .fifth,
+    .email-input {
+        width: 300px;
+        padding: 0;
+    }
+
+    footer {
+        justify-content: flex-start;
+        align-items: center;
+        height:226px;
+        width: 300px;
+    }
+
+    footer .copy,
+    footer .social-icons {
+        margin: 0;
+    }
+
+    .sixth .contact-info {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 554px) {
+    .first .video img {
+        display: none;
+    }
+
+    .first .video a{
+        width: 340px;
+        height: 220px;
+        background: url(../images/video-cover-small.jpg) no-repeat;
+    }
+}
+
+
